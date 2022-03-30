@@ -108,7 +108,7 @@ namespace Laba3
                 return;
             }
             temp = chislo;
-            for (int i = chislo; i > 0;)
+            for (int i = chislo; i > 0; i--)
             {
                 if (chislo % i == 0)
                 {
