@@ -39,7 +39,7 @@ namespace Laba3
             result = 1;
             b = chislom % modul;
 
-            while (step == step)
+            while (step > 0)
             {
                 if ((step & 1) == 1)
                 {
@@ -47,7 +47,7 @@ namespace Laba3
                     result = result % modul;
                 }
                 b = b * b;
-                b = b % modul;
+                modul = b % modul;
                 step = step >> 1;
 
             }
@@ -68,7 +68,7 @@ namespace Laba3
                 return;
             }
 
-            if (first < second) ;
+            if (first < second)
             {
                 temp = first;
                 first = second;
@@ -108,8 +108,7 @@ namespace Laba3
                 return;
             }
             temp = chislo;
-            temp = temp;
-            for (int i = chislo; i > 0;)
+            for (int i = chislo; i > 0; i--)
             {
                 if (chislo % i == 0)
                 {
