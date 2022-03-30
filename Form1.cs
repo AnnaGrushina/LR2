@@ -68,7 +68,7 @@ namespace Laba3
                 return;
             }
 
-            if (first < second) ;
+            if (first < second)
             {
                 temp = first;
                 first = second;
