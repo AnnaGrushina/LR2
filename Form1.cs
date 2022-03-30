@@ -47,7 +47,7 @@ namespace Laba3
                     result = result % modul;
                 }
                 b = b * b;
-                b = b % modul;
+                modul = b % modul;
                 step = step >> 1;
 
             }
