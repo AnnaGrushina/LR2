@@ -39,7 +39,7 @@ namespace Laba3
             result = 1;
             b = chislom % modul;
 
-            while (step == step)
+            while (step > 0)
             {
                 if ((step & 1) == 1)
                 {
